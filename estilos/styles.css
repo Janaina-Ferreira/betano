@@ -322,16 +322,16 @@ footer{
     }
 
     .hamburger-menu {
-       
+       margin: 0px 0px 0px 25px;
         display: block;
     }
 
     .butao1{
      
-       font-size: 0.8em;
+       font-size: 0.9em;
     }
     .butao2{
-        font-size: 0.8em;
+        font-size: 0.9em;
      }
 
     
