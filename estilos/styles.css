@@ -1,0 +1,336 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+   
+    background-color: #333;
+    color: #fff;
+    padding: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* Adicionado para ajustar a posição do menu absoluto/fixed */
+    z-index: 2;
+}
+
+.cabecalho{
+    padding: 5px;
+    text-align: right;
+    background-color:  #FF2C00;
+    margin-bottom: 5px;
+     
+}
+
+.cabecalho>a{
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.logo img {
+    margin: 10px 0px;
+    max-width: 199px;
+    height: auto;
+}
+
+nav {
+    
+    display: flex;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.menu li {
+  
+    margin-right: 20px;
+}
+
+.menu a {
+    
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    
+    border-bottom: 3px solid #FF2C00;
+    color:#FF2C00;
+   
+}
+
+.hamburger-menu {
+    color: #FF2C00;
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.butao{
+    font-size: 1em;
+   align-items: center;
+   padding: 0px 0px 0px 10%;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+  
+a.butao1{
+   
+   
+    text-decoration: none;
+   color: white;
+  padding: 5px;
+  border: 1px solid #FF2C00;
+  background-color: #FF2C00;
+  font-weight: bolder;
+}
+
+a.butao1:hover{
+    
+    border: 1px solid  #FF2C00;
+    background-color: #333;
+}
+
+.butao2{
+   margin: 10px;
+   
+    text-decoration: none;
+   color: white;
+  padding: 5px;
+  border: 1px solid #FF2C00;
+  font-weight: bolder;
+}
+
+a.butao2:hover{
+    
+    border: 1px solid  #FF2C00;
+    background-color:  #FF2C00;
+}
+
+main{
+    padding: 10px;
+    min-width: 300px;
+    max-width: 1150px;
+    align-items: center;
+    margin: auto; 
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slides {
+    margin-top: 15px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  
+  .navigation {
+    position: absolute;
+    width: 100%;
+    bottom: 22px;
+    padding-bottom: px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bar {
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #15131300;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.6s;
+  }
+
+  
+
+ 
+
+
+
+h1{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.6em;
+}
+
+h2{
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+
+
+.inf {
+  display: flex;
+  justify-content: space-around;
+  display: inline-block;
+  align-items: center;
+  flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha */
+  max-width: 100%;
+  margin: 10px;
+  
+}
+
+
+
+.inf1 {
+ 
+  max-width: 30%;
+
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.registro {
+  
+  text-align: center;
+  height: 50px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+    
+ 
+}
+
+.registro>button>a{
+  
+  color: white;
+}
+
+.registro>button {
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  border: 2px solid #FF2C00;  
+  background-color: #333;
+  
+ 
+}
+.registro>button:hover{
+  background-color: #FF2C00;
+}
+
+.bet{
+  
+  margin: 20px;
+  text-align: center;
+}
+.betano{
+  width: 40%;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+ 
+    padding: 20px;
+   
+    background-color: #333;
+  }
+  footer>p{
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+   
+  }
+  
+  .kira{
+    color: white;
+    font-weight: bolder;
+  }
+  
+  .kira:hover{
+    color: #FF2C00;
+  }
+
+
+
+@media only screen and (max-width: 1050px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top:75px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .menu li {
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .hamburger-menu {
+       
+        display: block;
+    }
+
+    .butao1{
+       font-size: 0.8em;
+    }
+    .butao2{
+        font-size: 0.8em;
+     }
+
+    
+     .inf img {
+       
+      max-width: 48%;
+      height: auto;
+      margin: 10px 3px;
+     
+    }
+
+    .betano{
+      width: 90%;
+    }
+        
+  
+}
+
