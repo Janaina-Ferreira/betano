@@ -328,15 +328,15 @@ footer{
 
     .butao1{
      
-       font-size: 0.9em;
+       font-size: 0.8em;
     }
     .butao2{
-        font-size: 0.9em;
+        font-size: 0.8em;
      }
 
     
      .inf img {
-       border-radius: 5px;
+       border-radius: 6px;
       max-width: 46%;
       height: auto;
       margin: 10px 3px;
