@@ -288,9 +288,13 @@ footer{
 
 @media only screen and (max-width: 1050px) {
   .cabecalho>a{
+    
     font-size: 13px;    
   }
 
+  .cabecalho{
+    text-align: center;
+  }
   .logo img {
     
     max-width: 170px;
