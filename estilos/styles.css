@@ -240,7 +240,7 @@ h2{
   height: 50px;
   width: 300px;
   font-size: 20px;
-  border: 2px solid #FF2C00;  
+  border: 1px solid #FF2C00;  
   background-color: #333;
   
  
@@ -297,7 +297,7 @@ footer{
   }
   .logo img {
     
-    max-width: 170px;
+    max-width: 150px;
    
 }
   
@@ -328,16 +328,16 @@ footer{
 
     .butao1{
      
-       font-size: 0.7em;
+       font-size: 0.8em;
     }
     .butao2{
-        font-size: 0.7em;
+        font-size: 0.8em;
      }
 
     
      .inf img {
        border-radius: 5px;
-      max-width: 48%;
+      max-width: 47%;
       height: auto;
       margin: 10px 3px;
      
